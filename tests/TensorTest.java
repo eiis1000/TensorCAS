@@ -1,4 +1,3 @@
-
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import show.ezkz.casprzak.core.functions.GeneralFunction;
@@ -9,8 +8,6 @@ import show.ezkz.casprzak.core.functions.endpoint.Variable;
 import show.ezkz.casprzak.core.functions.unitary.trig.normal.Cos;
 import show.ezkz.casprzak.core.functions.unitary.trig.normal.Sin;
 import tensors.*;
-import tensors.ArrayTensor;
-import tensors.elementoperations.ElementAccessor;
 import tensors.elementoperations.ElementProduct;
 import tensors.elementoperations.ElementSum;
 import tensors.elementoperations.ElementWrapper;
@@ -19,8 +16,9 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static tensors.TensorTools.*;
 import static show.ezkz.casprzak.core.tools.defaults.DefaultFunctions.*;
+import static tensors.TensorTools.createFrom;
+import static tensors.TensorTools.indexTensor;
 
 public class TensorTest {
 
