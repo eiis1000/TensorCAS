@@ -1,2 +1,2 @@
 # TensorCAS
-A tensor calculus computer algebra system built on CASprzak 
+An in-dev computer algebra system for tensor calculus built on CASprzak 
