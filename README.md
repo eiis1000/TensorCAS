@@ -6,3 +6,4 @@ README will be updated when the project is formally complete, but some current f
 - Construction of `Space`s from a metric 
 - Calculation of Christoffel connections
 - Covariant derivatives
+More info on the original CASprzak project can be found at https://github.com/EasyKayzey/CASprzak
